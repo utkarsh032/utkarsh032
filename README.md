@@ -49,3 +49,6 @@
 <p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=utkarsh032&show_icons=true&locale=en&layout=compact" alt="utkarsh032" /></p>
 
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=utkarsh032&show_icons=true&locale=en" alt="utkarsh032" /></p>
+
+
+<img src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake-dark.svg" alt="Snake animation" />
