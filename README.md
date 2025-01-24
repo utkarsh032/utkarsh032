@@ -17,7 +17,7 @@
 
 🤝 I’m looking for help with [MeetHub-VoiceChat-WebApp](https://github.com/utkarsh032/MeetHub-VoiceChat-WebApp)
 
-👨‍💻 All of my projects are available at [https://effulgent-croissant-0d660b.netlify.app/](https://utkarsh032.netlify.app/)
+👨‍💻 All of my projects are available at [https://utkarsh-raz032.netlify.app/](https://utkarsh-raz032.netlify.app/)
 
 💬 Ask me about **MERN**
 
