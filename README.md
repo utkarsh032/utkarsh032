@@ -2,14 +2,13 @@
 
 <h1 align="center">Hey👋, My name is Utkarsh Raj</h1>
 <h3 align="center">I'm a MERN Full Stack Developer with developing, and implementing applications and solutions using JavaScript, React & Node</h3>
-<img  alt="coding" width="400" src="https://miro.medium.com/v2/resize:fit:1360/0*7Q3yvSIv_t0ioJ-Z.gif" alt="Coding Freak">
-
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=utkarsh032&label=Profile%20views&color=0e75b6&style=flat" alt="utkarsh032" /> </p>
 
 <p align="left"> <a href="https://twitter.com/utkarshraz1" target="blank"><img src="https://img.shields.io/twitter/follow/utkarshraz1?logo=twitter&style=for-the-badge" alt="utkarshraz1" /></a> </p>
 
 ## 💫 About Me:
+<img align="right"  alt="coding" width="400" src="https://miro.medium.com/v2/resize:fit:1360/0*7Q3yvSIv_t0ioJ-Z.gif" alt="Coding Freak">
 
 🔭 I’m currently working on [MeetHub-VoiceChat-WebApp](https://github.com/utkarsh032/MeetHub-VoiceChat-WebApp)
 
