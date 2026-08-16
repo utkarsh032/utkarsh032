@@ -8,9 +8,14 @@
        blue     #70A5FD      purple   #BF91F3
        muted    #8B949E      dim      #6E7681
 
+     SINGLE FILE BY DESIGN — this README is the whole repo. Every image is
+     fetched from a hosted service; nothing is committed alongside it. GitHub
+     strips data: URIs from img src, so self-hosted artwork is not an option
+     without adding files back.
+
      Widget themes chosen so they all share that palette:
-       sections .......... gitskins theme=neon, snapshotted into assets/ by
-                           scripts/build-sections.py with the branding stripped
+       sections .......... gitskins theme=neon (carries a gitskins.com
+                           watermark; removing it needs committed copies)
        summary cards ..... theme=tokyonight   (#1a1b27 #38bdae #70a5fd #bf91f3)
        trophies .......... theme=tokyonight
        tech stack ........ shields pills in the palette, not brand colours
@@ -20,12 +25,12 @@
      ============================================================ -->
 
 <!-- Animated waving header -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1b27,45:0f766e,100:2dd4bf&height=180&section=header&text=Utkarsh%20Raj&fontSize=54&fontColor=e6edf3&fontAlignY=32&desc=MERN%20Full%20Stack%20Developer&descAlignY=54&descSize=18&animation=fadeIn" alt="header" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1b27,45:0f766e,100:2dd4bf&height=180&section=header&text=Utkarsh%20Raj&fontSize=54&fontColor=e6edf3&fontAlignY=32&desc=Full%20Stack%20Developer&descAlignY=54&descSize=18&animation=fadeIn" alt="header" />
 
 <!-- Animated typing line -->
 <p align="center">
   <a href="https://utkarsh-raz032.netlify.app/">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=800&color=2DD4BF&center=true&vCenter=true&width=700&lines=Hey+%F0%9F%91%8B%2C+I'm+Utkarsh+Raj;MERN+Full+Stack+Developer;JavaScript+%C2%B7+React+%C2%B7+Node+%C2%B7+TypeScript;Currently+deep+in+data+warehousing+with+SQL" alt="typing" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=800&color=2DD4BF&center=true&vCenter=true&width=700&lines=Hey+%F0%9F%91%8B%2C+I'm+Utkarsh+Raj;Full+Stack+Developer;React+%C2%B7+Angular+%C2%B7+Node+%C2%B7+.NET;Currently+deep+in+data+warehousing+with+SQL" alt="typing" />
   </a>
 </p>
 
@@ -42,8 +47,8 @@
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/utkarsh032/utkarsh032/main/assets/hero-light.svg" />
-    <img width="100%" src="https://raw.githubusercontent.com/utkarsh032/utkarsh032/main/assets/hero.svg" alt="utkarsh032 hero section" />
+    <source media="(prefers-color-scheme: light)" srcset="https://www.gitskins.com/api/section/hero?username=utkarsh032&theme=neon&mode=light" />
+    <img width="100%" src="https://www.gitskins.com/api/section/hero?username=utkarsh032&theme=neon" alt="utkarsh032 hero section" />
   </picture>
 </p>
 
@@ -53,13 +58,16 @@
 
 <img align="right" width="400" src="https://user-images.githubusercontent.com/74038190/225813708-98b745f2-7d22-48cf-9150-083f1b00d6c9.gif" alt="coding" />
 
-🔭 &nbsp;Currently building **[sql-data-warehouse-project](https://github.com/utkarsh032/sql-data-warehouse-project)** — a modern warehouse on SQL Server with full ETL
+<!-- Edit this line by hand when you start something new. The auto-updating
+     version needed a script and a workflow, which a single-file repo has no
+     room for. -->
+🔭 &nbsp;Currently building **[sql-data-warehouse-project](https://github.com/utkarsh032/sql-data-warehouse-project)** — a modern data warehouse on SQL Server with ETL, data modelling and analytics
 
 🌱 &nbsp;Currently learning **Advanced React** and **data modelling**
 
 👨‍💻 &nbsp;All of my projects live at **[utkarsh-raz032.netlify.app](https://utkarsh-raz032.netlify.app/)**
 
-💬 &nbsp;Ask me about **MERN — MongoDB, Express, React, Node**
+💬 &nbsp;Ask me about **the MERN stack, Angular, .NET and SQL Server**
 
 🤝 &nbsp;Open to collaborating on **full-stack side projects and open source**
 
@@ -69,8 +77,8 @@
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/utkarsh032/utkarsh032/main/assets/about-light.svg" />
-    <img width="100%" src="https://raw.githubusercontent.com/utkarsh032/utkarsh032/main/assets/about.svg" alt="about section" />
+    <source media="(prefers-color-scheme: light)" srcset="https://www.gitskins.com/api/section/about?username=utkarsh032&theme=neon&mode=light" />
+    <img width="100%" src="https://www.gitskins.com/api/section/about?username=utkarsh032&theme=neon" alt="about section" />
   </picture>
 </p>
 
@@ -80,19 +88,19 @@
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/utkarsh032/utkarsh032/main/assets/stats-light.svg" />
-    <img width="49%" src="https://raw.githubusercontent.com/utkarsh032/utkarsh032/main/assets/stats.svg" alt="profile signal" />
+    <source media="(prefers-color-scheme: light)" srcset="https://www.gitskins.com/api/section/stats?username=utkarsh032&theme=neon&mode=light" />
+    <img width="49%" src="https://www.gitskins.com/api/section/stats?username=utkarsh032&theme=neon" alt="profile signal" />
   </picture>
   <picture>
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/utkarsh032/utkarsh032/main/assets/stack-light.svg" />
-    <img width="49%" src="https://raw.githubusercontent.com/utkarsh032/utkarsh032/main/assets/stack.svg" alt="language stack" />
+    <source media="(prefers-color-scheme: light)" srcset="https://www.gitskins.com/api/section/stack?username=utkarsh032&theme=neon&mode=light" />
+    <img width="49%" src="https://www.gitskins.com/api/section/stack?username=utkarsh032&theme=neon" alt="language stack" />
   </picture>
 </p>
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/utkarsh032/utkarsh032/main/assets/highlights-light.svg" />
-    <img width="100%" src="https://raw.githubusercontent.com/utkarsh032/utkarsh032/main/assets/highlights.svg" alt="highlights" />
+    <source media="(prefers-color-scheme: light)" srcset="https://www.gitskins.com/api/section/highlights?username=utkarsh032&theme=neon&mode=light" />
+    <img width="100%" src="https://www.gitskins.com/api/section/highlights?username=utkarsh032&theme=neon" alt="highlights" />
   </picture>
 </p>
 
@@ -171,17 +179,22 @@ Real-estate marketplace built on the MERN stack with Tailwind CSS.
 
 **Frontend** &nbsp;
 ![React](https://img.shields.io/badge/React-70A5FD?style=flat-square&logo=react&logoColor=E6EDF3&labelColor=1A1B27)
+![Angular](https://img.shields.io/badge/Angular-70A5FD?style=flat-square&logo=angular&logoColor=E6EDF3&labelColor=1A1B27)
 ![Redux](https://img.shields.io/badge/Redux-70A5FD?style=flat-square&logo=redux&logoColor=E6EDF3&labelColor=1A1B27)
 ![Tailwind](https://img.shields.io/badge/Tailwind-70A5FD?style=flat-square&logo=tailwindcss&logoColor=E6EDF3&labelColor=1A1B27)
 ![Bootstrap](https://img.shields.io/badge/Bootstrap-70A5FD?style=flat-square&logo=bootstrap&logoColor=E6EDF3&labelColor=1A1B27)
 ![SASS](https://img.shields.io/badge/SASS-70A5FD?style=flat-square&logo=sass&logoColor=E6EDF3&labelColor=1A1B27)
 
 **Backend & Data** &nbsp;
+![.NET](https://img.shields.io/badge/.NET-BF91F3?style=flat-square&logo=dotnet&logoColor=E6EDF3&labelColor=1A1B27)
 ![Node.js](https://img.shields.io/badge/Node.js-BF91F3?style=flat-square&logo=nodedotjs&logoColor=E6EDF3&labelColor=1A1B27)
 ![Express](https://img.shields.io/badge/Express-BF91F3?style=flat-square&logo=express&logoColor=E6EDF3&labelColor=1A1B27)
 ![MongoDB](https://img.shields.io/badge/MongoDB-BF91F3?style=flat-square&logo=mongodb&logoColor=E6EDF3&labelColor=1A1B27)
 ![MySQL](https://img.shields.io/badge/MySQL-BF91F3?style=flat-square&logo=mysql&logoColor=E6EDF3&labelColor=1A1B27)
-![SQL Server](https://img.shields.io/badge/SQL_Server-BF91F3?style=flat-square&logo=microsoftsqlserver&logoColor=E6EDF3&labelColor=1A1B27)
+<!-- SQL Server and C# have no Simple Icons slug (trademark removal), so these
+     two render as text-only pills. Not a typo — no logo exists to reference. -->
+![SQL Server](https://img.shields.io/badge/SQL_Server-BF91F3?style=flat-square&labelColor=1A1B27)
+![T-SQL](https://img.shields.io/badge/T--SQL-BF91F3?style=flat-square&labelColor=1A1B27)
 ![GraphQL](https://img.shields.io/badge/GraphQL-BF91F3?style=flat-square&logo=graphql&logoColor=E6EDF3&labelColor=1A1B27)
 ![Firebase](https://img.shields.io/badge/Firebase-BF91F3?style=flat-square&logo=firebase&logoColor=E6EDF3&labelColor=1A1B27)
 
@@ -220,8 +233,8 @@ Real-estate marketplace built on the MERN stack with Tailwind CSS.
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/utkarsh032/utkarsh032/main/assets/heatmap-light.svg" />
-    <img width="100%" src="https://raw.githubusercontent.com/utkarsh032/utkarsh032/main/assets/heatmap.svg" alt="contribution heatmap" />
+    <source media="(prefers-color-scheme: light)" srcset="https://www.gitskins.com/api/section/heatmap?username=utkarsh032&theme=neon&mode=light" />
+    <img width="100%" src="https://www.gitskins.com/api/section/heatmap?username=utkarsh032&theme=neon" alt="contribution heatmap" />
   </picture>
 </p>
 
@@ -229,34 +242,13 @@ Real-estate marketplace built on the MERN stack with Tailwind CSS.
   <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=utkarsh032&bg_color=1A1B27&color=38BDAE&title_color=2DD4BF&line=2DD4BF&point=E6EDF3&area=true&area_color=2DD4BF&hide_border=true&custom_title=Contribution%20Graph" alt="activity graph" />
 </p>
 
-<!-- Galaga played on the contribution grid.
-     Needs .github/workflows/arcade.yml in the utkarsh032/utkarsh032 repo. -->
+<!-- Animated 3D contribution towers. This is the stand-in for the Galaga /
+     snake graphs: those are produced by GitHub Actions that commit SVGs into
+     the repo, which a single-file README has no place to keep. This one is
+     rendered on demand by a hosted service, so it needs no files. -->
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/utkarsh032/utkarsh032/output/galaga-contribution-graph-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/utkarsh032/utkarsh032/output/galaga-contribution-graph.svg" />
-    <img width="100%" src="https://raw.githubusercontent.com/utkarsh032/utkarsh032/output/galaga-contribution-graph.svg" alt="galaga contribution graph" />
-  </picture>
+  <img width="100%" src="https://ssr-contributions-svg.vercel.app/_/utkarsh032?chart=3dbar&gap=0.6&scale=2&flow=false&animation=wave&theme=green&dark=true&widget_size=large&format=svg" alt="3D contribution chart" />
 </p>
-
-<!-- Snake eating the contribution graph. Same workflow. -->
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/utkarsh032/utkarsh032/output/github-contribution-grid-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/utkarsh032/utkarsh032/output/github-contribution-grid-snake.svg" />
-    <img width="100%" src="https://raw.githubusercontent.com/utkarsh032/utkarsh032/output/github-contribution-grid-snake.svg" alt="snake animation" />
-  </picture>
-</p>
-
-<!-- Optional extra game — add it to `games:` in arcade.yml first
-     (pacman, breakout, bomberman, minesweeper, puzzle-bobble)
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/utkarsh032/utkarsh032/output/pacman-contribution-graph-dark.svg" />
-    <img width="100%" src="https://raw.githubusercontent.com/utkarsh032/utkarsh032/output/pacman-contribution-graph.svg" alt="pacman contribution graph" />
-  </picture>
-</p>
--->
 
 <!-- ============================================================ TROPHIES -->
 
@@ -270,22 +262,23 @@ Real-estate marketplace built on the MERN stack with Tailwind CSS.
 
 ## 🌐 Connect With Me
 
+<!-- Brand-coloured pills from shields.io. The glass card version lived in
+     assets/social/*.svg; a single-file README has nowhere to keep those, and
+     GitHub strips data: URIs from img src, so they cannot be inlined here. -->
 <p align="center">
-  <a href="https://www.linkedin.com/in/utkarsh-raj032/"><img src="https://img.shields.io/badge/LinkedIn-38BDAE?style=for-the-badge&logo=linkedin&logoColor=E6EDF3&labelColor=1A1B27" alt="linkedin" /></a>
-  <a href="https://twitter.com/utkarshraz1"><img src="https://img.shields.io/badge/Twitter-38BDAE?style=for-the-badge&logo=x&logoColor=E6EDF3&labelColor=1A1B27" alt="twitter" /></a>
-  <a href="mailto:utkarshraj525@gmail.com"><img src="https://img.shields.io/badge/Gmail-38BDAE?style=for-the-badge&logo=gmail&logoColor=E6EDF3&labelColor=1A1B27" alt="gmail" /></a>
-  <a href="https://utkarsh-raz032.netlify.app/"><img src="https://img.shields.io/badge/Portfolio-38BDAE?style=for-the-badge&logo=googlechrome&logoColor=E6EDF3&labelColor=1A1B27" alt="portfolio" /></a>
+  <a href="https://www.linkedin.com/in/utkarsh-raj032/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="linkedin" /></a>
+  <a href="mailto:utkarshraj525@gmail.com"><img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="gmail" /></a>
+  <a href="https://utkarsh-raz032.netlify.app/"><img src="https://img.shields.io/badge/Portfolio-00C7B7?style=for-the-badge&logo=netlify&logoColor=white" alt="portfolio" /></a>
+  <a href="https://github.com/utkarsh032"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="github" /></a>
   <br />
-  <a href="https://leetcode.com/u/utkarshraj525/"><img src="https://img.shields.io/badge/LeetCode-70A5FD?style=for-the-badge&logo=leetcode&logoColor=E6EDF3&labelColor=1A1B27" alt="leetcode" /></a>
-  <a href="https://www.hackerrank.com/utkarshraj525"><img src="https://img.shields.io/badge/HackerRank-70A5FD?style=for-the-badge&logo=hackerrank&logoColor=E6EDF3&labelColor=1A1B27" alt="hackerrank" /></a>
-  <a href="https://medium.com/@utkarshraj525"><img src="https://img.shields.io/badge/Medium-70A5FD?style=for-the-badge&logo=medium&logoColor=E6EDF3&labelColor=1A1B27" alt="medium" /></a>
+  <a href="https://twitter.com/utkarshraz1"><img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" alt="twitter" /></a>
+  <a href="https://leetcode.com/u/utkarshraj525/"><img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" alt="leetcode" /></a>
+  <a href="https://www.hackerrank.com/utkarshraj525"><img src="https://img.shields.io/badge/HackerRank-00EA64?style=for-the-badge&logo=hackerrank&logoColor=black" alt="hackerrank" /></a>
+  <a href="https://medium.com/@utkarshraj525"><img src="https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white" alt="medium" /></a>
 </p>
 
 <!-- Removed: YouTube (/c/utkarshraz9900 → 404) and Stack Overflow
-     (/users/utkarsh032 → 404). Re-add with the correct URLs if you have them:
-  <a href="YOUR_YOUTUBE_URL"><img src="https://img.shields.io/badge/YouTube-70A5FD?style=for-the-badge&logo=youtube&logoColor=E6EDF3&labelColor=1A1B27" alt="youtube" /></a>
-  <a href="YOUR_STACKOVERFLOW_URL"><img src="https://img.shields.io/badge/Stack_Overflow-70A5FD?style=for-the-badge&logo=stackoverflow&logoColor=E6EDF3&labelColor=1A1B27" alt="stackoverflow" /></a>
--->
+     (/users/utkarsh032 → 404). Re-add with correct URLs if you have them. -->
 
 <!-- ============================================================ QUOTE + FOOTER -->
 
