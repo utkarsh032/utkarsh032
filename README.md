@@ -67,7 +67,7 @@
 
 👨‍💻 &nbsp;All of my projects live at **[utkarsh-raz032.netlify.app](https://utkarsh-raz032.netlify.app/)**
 
-💬 &nbsp;Ask me about **the MERN stack, Angular, .NET and SQL Server**
+💬 &nbsp;Ask me about **the   stack, Angular, .NET and SQL Server**
 
 🤝 &nbsp;Open to collaborating on **full-stack side projects and open source**
 
@@ -125,7 +125,7 @@ A modern data warehouse on SQL Server — ETL pipelines, staged layers, and anal
 
 ### [OneMart-backend](https://github.com/utkarsh032/OneMart-backend)
 
-MERN e-commerce backend with JWT auth, product catalogue and order management. &nbsp;[**Live →**](https://onemart-backend-exl9.onrender.com/)
+  e-commerce backend with JWT auth, product catalogue and order management. &nbsp;[**Live →**](https://onemart-backend-exl9.onrender.com/)
 
 ![Node](https://img.shields.io/badge/Node.js-38BDAE?style=flat-square&labelColor=1A1B27)
 ![Express](https://img.shields.io/badge/Express-70A5FD?style=flat-square&labelColor=1A1B27)
@@ -149,9 +149,9 @@ A dynamic, fully responsive Udemy clone. &nbsp;[**Live →**](https://udemy-e-le
 
 ### [Bharat-Estate](https://github.com/utkarsh032/Bharat-Estate)
 
-Real-estate marketplace built on the MERN stack with Tailwind CSS.
+Real-estate marketplace built on the   stack with Tailwind CSS.
 
-![MERN](https://img.shields.io/badge/MERN-38BDAE?style=flat-square&labelColor=1A1B27)
+![ ](https://img.shields.io/badge/ -38BDAE?style=flat-square&labelColor=1A1B27)
 ![Tailwind](https://img.shields.io/badge/Tailwind-70A5FD?style=flat-square&labelColor=1A1B27)
 ![MongoDB](https://img.shields.io/badge/MongoDB-BF91F3?style=flat-square&labelColor=1A1B27)
 
